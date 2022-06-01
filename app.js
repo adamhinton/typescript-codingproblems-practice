@@ -24,3 +24,7 @@
 // Create a function for the terminal game that takes the current position of the hero and the roll (1-6) and return the new position.
 // Example:
 // move(3, 6) should equal 15
+// take in initial position and die roll
+// mult die rol * 2 and add that to position
+// return total
+// export const move = (pos: number, roll: number): number => {};
