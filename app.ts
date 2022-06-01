@@ -20,11 +20,7 @@
 const between = (a: number, b: number): number[] => {
   const solution: number[] = [];
   for (let i = a; i <= b; i++) {
-    // console.log("i:", i);
     solution.push(i);
   }
-
   return solution;
 };
-
-console.log("between(1, 4):", between(1, 4));
