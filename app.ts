@@ -17,10 +17,10 @@
 
 // ret array of all ints bw parameters exclusive
 
-const between = (a: number, b: number): number[] => {
-  const solution: number[] = [];
-  for (let i = a; i <= b; i++) {
-    solution.push(i);
-  }
-  return solution;
-};
+// const between = (a: number, b: number): number[] => {
+//   const solution: number[] = [];
+//   for (let i = a; i <= b; i++) {
+//     solution.push(i);
+//   }
+//   return solution;
+// };
