@@ -19,6 +19,9 @@
 
 const between = (a: number, b: number): number[] => {
   const solution: number[] = [];
+  for (let i = a; i <= b; i++) {
+    console.log("i:", i);
+  }
 
   return solution;
 };

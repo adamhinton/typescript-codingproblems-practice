@@ -13,6 +13,9 @@
 // ret array of all ints bw parameters exclusive
 const between = (a, b) => {
     const solution = [];
+    for (let i = a; i <= b; i++) {
+        console.log("i:", i);
+    }
     return solution;
 };
 console.log("between(1, 4):", between(1, 4));
