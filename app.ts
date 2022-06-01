@@ -38,9 +38,4 @@
 // mult die rol * 2 and add that to position
 // return total
 
-const move = (pos: number, roll: number): number => {
-  return pos + roll * 2;
-};
-
-console.log("move(0,4):", move(0, 4));
-console.log("move(3,6):", move(3 6));
+const move = (pos: number, roll: number): number => pos + roll * 2;
