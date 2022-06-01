@@ -11,5 +11,8 @@
 // for each, add i to solution
 // return solution;
 // ret array of all ints bw parameters exclusive
-const between = (a, b) => { };
+const between = (a, b) => {
+    const solution = [];
+    return solution;
+};
 console.log("between(1, 4):", between(1, 4));

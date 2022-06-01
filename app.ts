@@ -17,6 +17,10 @@
 
 // ret array of all ints bw parameters exclusive
 
-const between = (a: number, b: number): number[] => {};
+const between = (a: number, b: number): number[] => {
+  const solution: number[] = [];
+
+  return solution;
+};
 
 console.log("between(1, 4):", between(1, 4));
