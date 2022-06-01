@@ -6,4 +6,8 @@
 // b = 4
 // --> [1, 2, 3, 4]
 
+// take in two ints
+// a, b   --- a < b
+// ret array of all ints bw parameters exclusive
+
 const between = (a: number, b: number): number[] => {};
