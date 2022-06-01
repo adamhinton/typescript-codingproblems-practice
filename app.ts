@@ -33,3 +33,5 @@
 
 // Example:
 // move(3, 6) should equal 15
+
+// export const move = (pos: number, roll: number): number => {};
