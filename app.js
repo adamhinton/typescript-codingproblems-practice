@@ -14,7 +14,8 @@
 const between = (a, b) => {
     const solution = [];
     for (let i = a; i <= b; i++) {
-        console.log("i:", i);
+        // console.log("i:", i);
+        solution.push(i);
     }
     return solution;
 };
