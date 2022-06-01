@@ -28,3 +28,4 @@
 // mult die rol * 2 and add that to position
 // return total
 // const move = (pos: number, roll: number): number => pos + roll * 2;
+// *************************************************************************************

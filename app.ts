@@ -26,6 +26,7 @@
 // };
 
 // *************************************************************************************
+
 // Terminal game move function
 // In this game, the hero moves from left to right. The player rolls the dice and moves the number of spaces indicated by the dice two times.
 
@@ -39,3 +40,5 @@
 // return total
 
 // const move = (pos: number, roll: number): number => pos + roll * 2;
+
+// *************************************************************************************
