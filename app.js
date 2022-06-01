@@ -27,4 +27,8 @@
 // take in initial position and die roll
 // mult die rol * 2 and add that to position
 // return total
-// export const move = (pos: number, roll: number): number => {};
+const move = (pos, roll) => {
+    return pos + roll * 2;
+};
+console.log("move(0,4):", move(0, 4));
+console.log("move(3,6):", move(3, 6));
