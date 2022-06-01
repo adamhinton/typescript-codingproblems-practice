@@ -8,6 +8,11 @@
 
 // take in two ints
 // a, b   --- a < b
+
+// const solution = nummber[];
+
+// return solution;
+
 // ret array of all ints bw parameters exclusive
 
 const between = (a: number, b: number): number[] => {};
