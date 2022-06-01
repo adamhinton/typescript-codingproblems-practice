@@ -6,5 +6,9 @@
 // --> [1, 2, 3, 4]
 // take in two ints
 // a, b   --- a < b
+// const solution = nummber[];
+// for loop from a to b
+// for each, add i to solution
+// return solution;
 // ret array of all ints bw parameters exclusive
 const between = (a, b) => { };

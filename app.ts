@@ -10,6 +10,8 @@
 // a, b   --- a < b
 
 // const solution = nummber[];
+// for loop from a to b
+// for each, add i to solution
 
 // return solution;
 
