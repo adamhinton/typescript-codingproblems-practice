@@ -53,8 +53,8 @@
 
 // PLAN:
 // return integer (round down)
-// find total savings per bottle (normPrice * (discount / 100))
-// return hol / totalSavings (I think)
+// find savingsPerBottle (normPrice * (discount / 100))
+// return hol / savingsPerBottle (I think)
 
 const dutyFree = (
   normPrice: number,
