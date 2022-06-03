@@ -56,5 +56,9 @@
 const digitize = (n) => {
     const solution = [];
     const numberString = String(n);
+    for (let i = numberString.length - 1; i >= 0; i--) {
+        console.log("numberString[i]:", numberString[i]);
+    }
     return solution;
 };
+console.log("digitize(35231):", digitize(35231));
