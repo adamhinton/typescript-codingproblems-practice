@@ -85,6 +85,8 @@ const digitize = (n: number): number[] => {
 
   for (let i = numberString.length - 1; i >= 0; i--) {
     console.log("numberString[i]:", numberString[i]);
+
+    solution.push(numberString[i]);
   }
 
   return solution;
