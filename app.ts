@@ -89,5 +89,3 @@ const digitize = (n: number): number[] => {
 
   return solution;
 };
-
-console.log("digitize(35231):", digitize(35231));

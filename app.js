@@ -62,4 +62,3 @@ const digitize = (n) => {
     }
     return solution;
 };
-console.log("digitize(35231):", digitize(35231));
