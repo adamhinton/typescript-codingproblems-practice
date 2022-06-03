@@ -57,8 +57,8 @@ const digitize = (n) => {
     const solution = [];
     const numberString = String(n);
     for (let i = numberString.length - 1; i >= 0; i--) {
-        console.log("numberString[i]:", numberString[i]);
-        solution.push(Number(numberString[i]));
+        const currentDigit = Number(numberString[i]);
+        solution.push(currentDigit);
     }
     return solution;
 };
