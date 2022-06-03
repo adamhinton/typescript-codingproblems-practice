@@ -77,3 +77,9 @@
 // loop over its digits backwards (convert to string)
 // for each, push digit to solution
 //return solution
+
+const digitize = (input: number): number[] => {
+  const solution = number[];
+
+  return solution;
+};
