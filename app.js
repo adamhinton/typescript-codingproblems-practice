@@ -37,7 +37,7 @@
 // return integer (round down)
 // find savingsPerBottle (normPrice * (discount / 100))
 // return hol / savingsPerBottle (I think)
-const dutyFree = (normPrice, discount, hol) => {
-    const savingsPerBottle = (normPrice * discount) / 100;
-    return Math.floor(hol / savingsPerBottle);
-};
+// const dutyFree = (normPrice: number, discount: number, hol: number): number => {
+//   const savingsPerBottle = (normPrice * discount) / 100;
+//   return Math.floor(hol / savingsPerBottle);
+// };
