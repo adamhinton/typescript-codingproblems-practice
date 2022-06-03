@@ -54,6 +54,7 @@
 // for each, push digit to solution
 //return solution
 const digitize = (n) => {
-    const solution = number[];
+    const solution = [];
+    const numberString = String(n);
     return solution;
 };

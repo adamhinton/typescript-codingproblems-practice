@@ -79,7 +79,9 @@
 //return solution
 
 const digitize = (n: number): number[] => {
-  const solution = number[];
+  const solution: number[] = [];
+
+  const numberString = String(n);
 
   return solution;
 };
