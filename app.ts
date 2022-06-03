@@ -78,7 +78,7 @@
 // for each, push digit to solution
 //return solution
 
-const digitize = (input: number): number[] => {
+const digitize = (n: number): number[] => {
   const solution = number[];
 
   return solution;
