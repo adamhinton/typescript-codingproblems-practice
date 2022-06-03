@@ -51,6 +51,11 @@
 
 // All inputs will be integers. Please return an integer. Round down.
 
+// PLAN:
+// return integer (round down)
+// find total savings per bottle (normPrice * (discount / 100))
+// return hol / totalSavings (I think)
+
 const dutyFree = (
   normPrice: number,
   discount: number,
