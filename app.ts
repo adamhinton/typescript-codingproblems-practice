@@ -78,14 +78,14 @@
 // for each, push digit to solution
 //return solution
 
-const digitize = (n: number): number[] => {
-  const solution: number[] = [];
-  const numberString = String(n);
+// const digitize = (n: number): number[] => {
+//   const solution: number[] = [];
+//   const numberString = String(n);
 
-  for (let i = numberString.length - 1; i >= 0; i--) {
-    const currentDigit = Number(numberString[i]);
-    solution.push(currentDigit);
-  }
+//   for (let i = numberString.length - 1; i >= 0; i--) {
+//     const currentDigit = Number(numberString[i]);
+//     solution.push(currentDigit);
+//   }
 
-  return solution;
-};
+//   return solution;
+// };

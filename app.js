@@ -53,12 +53,12 @@
 // loop over its digits backwards (convert to string)
 // for each, push digit to solution
 //return solution
-const digitize = (n) => {
-    const solution = [];
-    const numberString = String(n);
-    for (let i = numberString.length - 1; i >= 0; i--) {
-        const currentDigit = Number(numberString[i]);
-        solution.push(currentDigit);
-    }
-    return solution;
-};
+// const digitize = (n: number): number[] => {
+//   const solution: number[] = [];
+//   const numberString = String(n);
+//   for (let i = numberString.length - 1; i >= 0; i--) {
+//     const currentDigit = Number(numberString[i]);
+//     solution.push(currentDigit);
+//   }
+//   return solution;
+// };
