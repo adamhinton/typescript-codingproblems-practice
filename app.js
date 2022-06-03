@@ -47,3 +47,9 @@
 // Example(Input => Output):
 // 348597 => [7,9,5,8,4,3]
 // 0 => [0]
+// PLAN:
+// take in non-neg num
+// const solution = []
+// loop over its digits backwards (convert to string)
+// for each, push digit to solution
+//return solution
