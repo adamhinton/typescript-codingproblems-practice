@@ -57,8 +57,11 @@
 // return hol / savingsPerBottle (I think)
 
 const dutyFree = (normPrice: number, discount: number, hol: number): number => {
-  const savingsPerBottle = (normPrice * discount) / 100;
+  const savingsPerBottle = (normPrice * discount) / 1000;
 
   console.log("savingsPerBottle:", savingsPerBottle);
-  return 1;
+  return hol / savingsPerBottle;
 };
+
+console.log("dutyFree(12, 50, 100):", dutyFree(12, 50, 100));
+console.log("dutyFree(17, 10, 500):", dutyFree(12, 50, 100));
