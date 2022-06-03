@@ -54,5 +54,5 @@
 const dutyFree = (
   normPrice: number,
   discount: number,
-  holidayCost: number
+  hol: number
 ): number => {};
