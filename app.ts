@@ -106,14 +106,14 @@
 // loop over array starting at index 1
 // for each: if arr[i] - 1 !== arr [i-1] return arr[i]
 
-const firstNonConsecutive = (arr: number[]): null | number => {
-  for (let i = 1; i < arr.length; i++) {
-    const currentNumber = arr[i];
-    const previousNumber = arr[i - 1];
+// const firstNonConsecutive = (arr: number[]): null | number => {
+//   for (let i = 1; i < arr.length; i++) {
+//     const currentNumber = arr[i];
+//     const previousNumber = arr[i - 1];
 
-    if (currentNumber - 1 !== previousNumber) {
-      return currentNumber;
-    }
-  }
-  return null;
-};
+//     if (currentNumber - 1 !== previousNumber) {
+//       return currentNumber;
+//     }
+//   }
+//   return null;
+// };
