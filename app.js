@@ -72,7 +72,6 @@
 // loop over array starting at index 1
 // for each: if arr[i] - 1 !== arr [i-1] return arr[i]
 const firstNonConsecutive = (arr) => {
-    //   return 1;
     for (let i = 1; i < arr.length; i++) {
         if (arr[i] - 1 !== arr[i - 1]) {
             return arr[i];
