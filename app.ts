@@ -115,8 +115,3 @@ const firstNonConsecutive = (arr: number[]): null | number => {
   }
   return null;
 };
-
-console.log(
-  "firstNonConsecutive([1,2,3,4,6,7,8]):",
-  firstNonConsecutive([1, 2, 3, 4, 6, 7, 8])
-);
