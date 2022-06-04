@@ -125,3 +125,10 @@
 // export function sayHello(name: string): string {
 //   return "Hello";
 // }
+
+// take in name string
+// return `Hello ${name}`
+
+function sayHello(name: string): string {
+  return "Hello";
+}
