@@ -110,8 +110,8 @@ const firstNonConsecutive = (arr: number[]): null | number => {
   for (let i = 1; i < arr.length; i++) {
     const currentNumber = arr[i];
     const previousNumber = arr[i - 1];
-    if (arr[i] - 1 !== arr[i - 1]) {
-      return arr[i];
+    if (currentNumber - 1 !== previousNumber) {
+      return currentNumber;
     }
   }
   return null;
