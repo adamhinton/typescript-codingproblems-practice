@@ -129,4 +129,4 @@
 // take in name string
 // return `Hello ${name}`
 
-const sayHello = (name: string): string => `Hello, ${name}`;
+// const sayHello = (name: string): string => `Hello, ${name}`;
