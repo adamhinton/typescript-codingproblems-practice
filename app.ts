@@ -163,5 +163,5 @@
 // Take in string
 // return string === string.toUpperCase()
 
-const isUpperCase = (string: string): boolean =>
-  string === string.toUpperCase();
+// const isUpperCase = (string: string): boolean =>
+//   string === string.toUpperCase();
