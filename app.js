@@ -90,3 +90,26 @@
 // return `Hello ${name}`
 // const sayHello = (name: string): string => `Hello, ${name}`;
 // *************************************************************************************
+// Write function parseFloat which takes an input and returns a number or Nothing if conversion is not possible.
+// PLAN:
+// take in input
+// convert input to Number, probably declare this as a variable
+// if it can't be a number, return Nothing - not sure if string or what
+// const parseFloat = (input: any): number => {
+//   return 1;
+// };
+// *************************************************************************************
+// Is the string uppercase?
+// Task
+// Create a method to see whether the string is ALL CAPS.
+// Examples (input -> output)
+// "c" -> False
+// "C" -> True
+// "hello I AM DONALD" -> False
+// "HELLO I AM DONALD" -> True
+// "ACSKLDFJSgSKLDFJSKLDFJ" -> False
+// "ACSKLDFJSGSKLDFJSKLDFJ" -> True
+// In this Kata, a string is said to be in ALL CAPS whenever it does not contain any lowercase letter so any string containing no letters at all is trivially considered to be in ALL CAPS.
+// PLAN:
+// Take in string
+// return string === string.toUpperCase()
