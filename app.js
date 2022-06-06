@@ -113,4 +113,6 @@
 // PLAN:
 // Take in string
 // return string === string.toUpperCase()
-const isUpperCase = (string) => { };
+const isUpperCase = (string) => {
+    return string === string.toUpperCase();
+};
