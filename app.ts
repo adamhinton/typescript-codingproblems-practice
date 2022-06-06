@@ -175,8 +175,6 @@
 // rpl brackets w pren
 // open curly at start of fxn
 
-function main(verb: string, noun: string): string {
-  return verb + noun;
-}
+const main = (verb: string, noun: string): string => verb + noun;
 
 console.log('main("abc", "123"):', main("abc", "123"));
