@@ -122,4 +122,3 @@
 // rpl brackets w pren
 // open curly at start of fxn
 const main = (verb, noun) => verb + noun;
-console.log('main("abc", "123"):', main("abc", "123"));
