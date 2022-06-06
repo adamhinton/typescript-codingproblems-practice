@@ -165,3 +165,5 @@
 
 // const isUpperCase = (string: string): boolean =>
 //   string === string.toUpperCase();
+
+// *************************************************************************************
