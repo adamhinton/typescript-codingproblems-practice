@@ -175,4 +175,4 @@
 // rpl brackets w pren
 // open curly at start of fxn
 
-const main = (verb: string, noun: string): string => verb + noun;
+// const main = (verb: string, noun: string): string => verb + noun;
