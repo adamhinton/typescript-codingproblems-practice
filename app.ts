@@ -135,6 +135,11 @@
 
 // Write function parseFloat which takes an input and returns a number or Nothing if conversion is not possible.
 
+// PLAN:
+// take in input
+// convert input to Number, probably declare this as a variable
+// if it can't be a number, return Nothing - not sure if string or what
+
 const parseFloat = (input: any): number => {
   return 1;
 };
