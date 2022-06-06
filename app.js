@@ -116,6 +116,3 @@
 const isUpperCase = (string) => {
     return string === string.toUpperCase();
 };
-console.log('isUpperCase("abc"):', isUpperCase("abc"));
-console.log('isUpperCase("ABC"):', isUpperCase("ABC"));
-console.log('isUpperCase(""):', isUpperCase(""));
