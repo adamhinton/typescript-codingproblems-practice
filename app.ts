@@ -140,6 +140,6 @@
 // convert input to Number, probably declare this as a variable
 // if it can't be a number, return Nothing - not sure if string or what
 
-const parseFloat = (input: any): number => {
-  return 1;
-};
+// const parseFloat = (input: any): number => {
+//   return 1;
+// };
