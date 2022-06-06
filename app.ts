@@ -132,3 +132,5 @@
 // const sayHello = (name: string): string => `Hello, ${name}`;
 
 // *************************************************************************************
+
+// Write function parseFloat which takes an input and returns a number or Nothing if conversion is not possible.
