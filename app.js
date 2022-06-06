@@ -124,3 +124,4 @@
 function main(verb, noun) {
     return verb + noun;
 }
+console.log('main("abc", "123"):', main("abc", "123"));

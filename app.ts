@@ -178,3 +178,5 @@
 function main(verb: string, noun: string): string {
   return verb + noun;
 }
+
+console.log('main("abc", "123"):', main("abc", "123"));
