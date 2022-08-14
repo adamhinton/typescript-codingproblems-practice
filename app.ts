@@ -193,7 +193,7 @@ const isPangram = (phrase: string): boolean => {
   const phraseSet = new Set(phrase.toLowerCase());
 
   console.log("phraseSet:", phraseSet);
-  return false;
+  return phraseSet.size === 26;
 };
 
 console.log(

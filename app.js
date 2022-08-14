@@ -134,7 +134,7 @@ const isPangram = (phrase) => {
     console.log("phrase:", phrase);
     const phraseSet = new Set(phrase.toLowerCase());
     console.log("phraseSet:", phraseSet);
-    return false;
+    return phraseSet.size === 26;
 };
 console.log('isPangram("The quick brown fox jumps over the lazy dog."):', isPangram("The quick brown fox jumps over the lazy dog."));
 console.log("isPangram('blahblahblah'):", isPangram("blahblahblah"));
