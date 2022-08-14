@@ -130,8 +130,9 @@
 // filter out non-alph chars
 // make it a set
 // return set.length === 26s
-const isPangram = (phrase) => {
-    phrase = phrase.replace(/[^a-zA-Z]/gi, "");
-    const phraseSet = new Set(phrase.toLowerCase());
-    return phraseSet.size === 26;
-};
+// const isPangram = (phrase: string): boolean => {
+//   phrase = phrase.replace(/[^a-zA-Z]/gi, "");
+//   const phraseSet = new Set(phrase.toLowerCase());
+//   return phraseSet.size === 26;
+// };
+// ===============================================
