@@ -190,4 +190,4 @@ console.log(
   isPangram("The quick brown fox jumps over the lazy dog.")
 );
 
-console.log('isPangram('blahblahblah'):', isPangram('blahblahblah'))
+console.log("isPangram('blahblahblah'):", isPangram("blahblahblah"));
