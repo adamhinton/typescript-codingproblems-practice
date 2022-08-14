@@ -130,9 +130,10 @@
 // make it a set
 // return set.length === 26s
 const isPangram = (phrase) => {
-    phrase = phrase.replace(/[a-zA-Z]g/, "");
+    phrase = phrase.replace(/[^a-zA-Z]/gi, "");
     console.log("phrase:", phrase);
-    const phraseSet = new Set(phrase);
+    const phraseSet = new Set(phrase.toLowerCase());
+    console.log("phraseSet:", phraseSet);
     return false;
 };
 console.log('isPangram("The quick brown fox jumps over the lazy dog."):', isPangram("The quick brown fox jumps over the lazy dog."));

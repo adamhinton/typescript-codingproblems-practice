@@ -188,9 +188,11 @@
 // return set.length === 26s
 
 const isPangram = (phrase: string): boolean => {
-  phrase = phrase.replace(/[a-zA-Z]g/, "");
+  phrase = phrase.replace(/[^a-zA-Z]/gi, "");
   console.log("phrase:", phrase);
-  const phraseSet = new Set(phrase);
+  const phraseSet = new Set(phrase.toLowerCase());
+
+  console.log("phraseSet:", phraseSet);
   return false;
 };
 
