@@ -181,7 +181,7 @@
 
 // Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
 
-export const isPangram = (phrase: string): boolean => {
+const isPangram = (phrase: string): boolean => {
   return false;
 };
 
