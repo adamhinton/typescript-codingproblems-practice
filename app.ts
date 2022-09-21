@@ -207,8 +207,18 @@
     // add `${myNumber}: ` to array[i]
 }
 
+// Scratch that: Let's use .map so as not to modify parameter.
+
+//array.map (val, index, arr){
+    // return ``${myNumber}: ${val}`
+}
+
 export const number = (array: string[]): string[] => {
   const solution: string[] = [];
+
+for(let i=0; i<array.length; i++){
+
+}
 
   return solution;
 };
