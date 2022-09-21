@@ -220,7 +220,7 @@ const number = (array: string[]): string[] => {
 
   console.log("solution:", solution);
 
-  return [];
+  return solution;
 };
 
 console.log('number(["a", "b", "c"]):', number(["a", "b", "c"]));

@@ -153,6 +153,6 @@ const number = (array) => {
         return `${index + 1}: ${value}`;
     });
     console.log("solution:", solution);
-    return [];
+    return solution;
 };
 console.log('number(["a", "b", "c"]):', number(["a", "b", "c"]));
