@@ -203,18 +203,24 @@
 
 // Take in string[]
 // for(i){
-    // const myNumber = i + 1
-    // add `${myNumber}: ` to array[i]
+// const myNumber = i + 1
+// add `${myNumber}: ` to array[i]
 // }
 
 // Scratch that: Let's use .map so as not to modify parameter.
 
 //array.map (val, index, arr){
-    // return ``${myNumber}: ${val}`
-}
+// return ``${myNumber}: ${val}`
+// }
 
-export const number = (array: string[]): string[] => {
+const number = (array: string[]): string[] => {
+  const solution = array.map((value, index) => {
+    return `${index + 1}: ${value}`;
+  });
 
-    return []
+  console.log("solution:", solution);
 
+  return [];
 };
+
+console.log('number(["a", "b", "c"]):', number(["a", "b", "c"]));
