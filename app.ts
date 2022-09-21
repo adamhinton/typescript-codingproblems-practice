@@ -213,14 +213,5 @@
 // return ``${myNumber}: ${val}`
 // }
 
-const number = (array: string[]): string[] => {
-  const solution = array.map((value, index) => {
-    return `${index + 1}: ${value}`;
-  });
-
-  console.log("solution:", solution);
-
-  return solution;
-};
-
-console.log('number(["a", "b", "c"]):', number(["a", "b", "c"]));
+const number = (array: string[]): string[] =>
+  array.map((value, index) => `${index + 1}: ${value}`);
