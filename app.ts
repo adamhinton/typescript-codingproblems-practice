@@ -205,7 +205,7 @@
 // for(i){
     // const myNumber = i + 1
     // add `${myNumber}: ` to array[i]
-}
+// }
 
 // Scratch that: Let's use .map so as not to modify parameter.
 
@@ -214,11 +214,7 @@
 }
 
 export const number = (array: string[]): string[] => {
-  const solution: string[] = [];
 
-for(let i=0; i<array.length; i++){
+    return []
 
-}
-
-  return solution;
 };
