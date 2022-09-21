@@ -213,5 +213,7 @@
 // return ``${myNumber}: ${val}`
 // }
 
-const number = (array: string[]): string[] =>
-  array.map((value, index) => `${index + 1}: ${value}`);
+// const number = (array: string[]): string[] =>
+//   array.map((value, index) => `${index + 1}: ${value}`);
+
+// =================================================
